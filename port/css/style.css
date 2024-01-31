@@ -702,7 +702,7 @@ body.fixed {
 
 #footer {
 	display: block;
-	padding: 2.5em 0;
+	padding: 2em 0;
 	font-size: 34px;
 }
 #footer .contact {
@@ -713,6 +713,7 @@ body.fixed {
 	margin: 0 auto;
 }
 #footer .contact p {
+	font-size: 45px;
 	padding-top: 20px;
 }
 #footer .port_guide .inner {
@@ -805,11 +806,14 @@ body.fixed {
 	}
 	#footer  {
 		font-size: 20px;
-		padding:  100px 30px 30px 30px;
+		padding:  100px 30px 0px 30px;
 	}
 	#footer .contact {
 		justify-content: center;
 		flex-wrap: wrap;
+	}
+	#footer .contact p {
+		font-size: 30px;
 	}
 	#footer .port_guide .inner > a {
 		width: 150px;
@@ -824,6 +828,9 @@ body.fixed {
 	}
 	#page1 .port_content .inner .skills li:before {
 		display: none;
+	}
+	#footer .port_guide .inner > a {
+		margin-bottom: 0;
 	}
 }
 .site_content .inner{
